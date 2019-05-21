@@ -1,0 +1,30 @@
+{
+  "name": "remoteconfigs-client",
+  "version": "0.0.6",
+  "description": "Get your RemoteConfig Configurations and Settings from your front-end javascript with this easy to use npm package",
+  "homepage": "https://remoteconfigs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RemoteConfigsInc/Client.npm"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register tests/**/*.ts"
+  },
+  "types": "dist/index.d.ts",
+  "author": "RemoteConfigs",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
