@@ -1,6 +1,6 @@
 {
   "name": "remoteconfigs-client",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Get your RemoteConfig Configurations and Settings from your front-end javascript with this easy to use npm package",
   "homepage": "https://remoteconfigs.com",
   "repository": {
